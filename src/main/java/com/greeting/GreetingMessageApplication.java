@@ -1,13 +1,13 @@
-package com.greetingmessage.greeting;
+package com.greeting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GreetingApplication {
+public class GreetingMessageApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GreetingApplication.class, args);
+        SpringApplication.run(GreetingMessageApplication.class, args);
     }
 
 }
